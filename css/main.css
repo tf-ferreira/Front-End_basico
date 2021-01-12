@@ -1,0 +1,510 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-1{
+    background-color: #252323;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    float: left;
+    width: 20%;
+}
+
+.logo img {
+    max-width: 90%;
+    max-height:10%;
+    width: auto;
+    height: auto;
+    margin-left: 20%;
+}
+
+main, .content{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.redes{
+    width: 80%;
+    float: right;
+    margin-left: 70%;
+}
+
+.redes ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 2%;
+    padding: 0.25%;
+}
+
+.redes img{
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 0;
+    width: auto;
+    height: auto;
+    margin-top: 0%;
+    padding: 0.15%;
+}
+
+.header-2{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+    display: flex;
+}
+
+.menu-urls{
+    border-bottom: 3px solid lightgrey;
+    background-color: whitesmoke;
+    padding: 0;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    width: 9%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+.menu ul li a{
+    color: darkgray;
+    text-decoration: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 90%;
+    text-transform: uppercase;
+    padding: 0%;
+    margin-top: -0.5%;
+}
+
+.menu ul li a:hover{
+    color: #252323;
+    border-bottom: 1px solid #252323;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.menu{
+    width: 80%;
+    float: left;
+    align-items: center;
+}
+
+.busca-geral{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.busca{
+    display: block;
+    margin: 0%;
+    padding: 1%;
+    float: left;
+}
+
+.busca img{
+    width: 50px;
+    height: auto;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 0.15%;
+}
+
+.busca  input{
+    margin-top: 0%;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    height: 50%;
+    padding: 1%;
+    text-align: left;
+}
+
+.busca input:hover{
+    border-color: #252323;
+}
+
+.col-100{
+    margin: 0;
+    width: 100%;
+    float: left;
+    padding: 0;
+    align-items: center;
+}
+
+.slider{
+    height: 450px;
+}
+button.slick-prev{
+    font-size: 0%;
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    background-image: url('../img/setae.png');
+    z-index: 9;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    cursor: pointer;
+}
+button.slick-next{
+    font-size: 0%;
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    background-image: url('../img/setad.png');
+    z-index: 9;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.slick-list{
+    width: 100%!important;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 2px solid lightgrey;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots{
+    margin-top: -2%;
+    width: 50%;
+    position: relative;
+    left: 45%;
+}
+
+.slick-dots li{
+    display: inline-block;
+}
+
+li.slick-active button{
+    background-color: #252323;
+}
+
+.bloco-texto{
+    padding: 10px;
+}
+
+.texto-destaque {
+    width: 80%;
+    border: 1px solid lightgrey;
+    text-align: center;
+    color: darkgray;
+    margin: 3%;
+    border-radius: 10px;
+}
+
+.texto-destaque p{
+    font-size: 15px;
+}
+
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.texto-destaque strong{
+    color: #252323;
+}
+
+.al-h{
+    /*alinhando horizontal*/
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-3{
+    color: darkgrey;
+    text-align: center;
+    padding: 15px;
+    width: 26%;
+    height: 30%;
+    float: left;
+    position: relative;
+    margin: 2.5%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.col-3:hover{
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 3px darkgrey;
+}
+
+.col-3 img{
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+}
+
+h3{
+    font-weight: normal;
+}
+b{
+    color: #252323;
+}
+
+.bloco-click{
+    background-color: whitesmoke;
+    width: 90%;
+    height: 50%;
+    border: 1px solid lightgrey;
+    margin-top: 80%;
+    margin-left: 5%;
+    border-radius: 15px;
+    align-items: center;
+}
+.col-33{
+    color: darkgrey;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 26%;
+    height: 80%;
+    float: left;
+    position: relative;
+    margin: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.col-33:hover{
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 3px darkgrey;
+}
+
+.col-33 img{
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+}
+
+.col-4{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-fix{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img{
+    max-width: 35%;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-top: 1em;
+    vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 0px!important;
+    position: relative!important;
+}
+.col-fix img{
+    max-width: 35%;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-top: 1em;
+}
+
+
+.footer h3 {
+    text-align: center;
+}
+
+.footer {
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+    margin-top: 2%;
+}
+
+.footer-2 {
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+
+
+.footer p {
+    width: 90%;
+    text-align: left;
+}
+
+.footer-2 p {
+    padding: 10px;
+}
+
+.clock {
+    color: #898989!important;
+}
+
+.clock:before {
+    content: '';
+    width:  15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before, .emailico:before, .telefoneico:before {
+    content: '';
+    width:  17px;
+    height: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.local:before {
+    background-image: url('../img/local.png');
+}  
+.emailico:before {
+    background-image: url('../img/emailico.png');
+}  
+.telefoneico:before {
+    background-image: url('../img/telefoneico.png');
+}  
+
+.l-margin{
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 1400px){
+    .col-3{
+        width: 30%;
+        margin-left: 35%;
+    }
+    .bloco-click{
+        margin-top: 140%;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .bloco-click{
+        margin-top: 150%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .busca{
+        display: none;
+    }
+    .menu ul li{
+        width: 14%;
+    }
+    .col-33{
+        width: 30%;
+        height: 25%;
+        margin-left: 35%;
+    }
+    .bloco-click{
+        height: 140%;
+        margin-top: 155%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .bloco-click{
+        margin-top: 170%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .bloco-click{
+        margin-top: 190%;
+    }
+}
+
+@media screen and (max-height: 900px){
+    .header-1{
+        height: 75px;
+    }
+    .col-3{
+        height: 254px;
+    }
+}
+@media screen and (max-width: 900px){
+    .redes{
+        margin-left: 60%;
+    }
+    
+    .redes ul li{
+        margin-left: 0.2%;
+        padding: 0.25%;
+    }
+    
+    .redes img{
+        max-width: 70%;
+        max-height: 70%;
+        width: auto;
+        height: auto;
+    }
+    .menu ul li a{
+        font-size: 70%;
+    }
+    .bloco-click{
+        margin-top: 210%;
+    }
+}
+@media screen and (max-width: 800px){
+    .bloco-click{
+        margin-top: 230%;
+    }
+}
+@media screen and (max-width: 700px){
+    .bloco-click{
+        margin-top: 270%;
+    }
+}
+@media screen and (max-width: 660px){
+    .redes{
+        margin-left: 45%;
+    }
+    
+    .redes img{
+        max-width: 60%;
+        max-height: 60%;
+        width: auto;
+        height: auto;
+    }
+    .menu ul li a{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 600px){
+    .bloco-click{
+        margin-top: 310%;
+    }
+}
+@media screen and (max-width: 500px){
+    .bloco-click{
+        margin-top: 360%;
+    }
+}
